@@ -47,7 +47,6 @@ const ChalanDetails = () => {
       bill,
       invoice
     }
-    setIdentificationInfo(info)
     navigation.navigate('Dashboard',{info})
   }
   return (
